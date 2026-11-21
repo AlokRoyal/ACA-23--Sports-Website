@@ -1,27 +1,41 @@
 # MS Dhoni Tribute Website
 
-A static tribute page about Indian cricketer Mahendra Singh Dhoni. It presents a biography and selected achievements with a photographic hero section and player imagery.
+![HTML](https://img.shields.io/badge/HTML5-page%20structure-E34F26?logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-styling-1572B6?logo=css3&logoColor=white)
 
-## Page structure
+A static tribute page about Mahendra Singh Dhoni. It presents a biography and selected achievements in a cricket-themed layout with photographic backgrounds and player imagery.
 
-- Hero section introduces the tribute.
-- Biography section summarizes Dhoni’s playing career and milestones.
-- Achievements section lists selected awards and records.
+## What it demonstrates
 
-The content and layout are defined in one HTML page. This is a simple static site, not a data-driven application.
+- Organizing a single page into hero, biography, and achievements sections
+- Styling a page with CSS backgrounds, flex layout, typography, and hover transitions
+- Referencing local image assets from a static site
 
-## Built with
+## Page contents
 
-HTML5 for page structure and CSS3 for backgrounds, flex layout, typography, and hover effects. The photos are local JPG assets.
+The hero introduces the tribute. The biography section summarizes Dhoni’s playing career and milestones. The achievements section presents selected awards and records beside a player image. This is a hand-authored static page; content is not loaded from an API or database.
 
-## Run locally
+## Architecture
 
-Open index.html in a browser. No package manager, build step, server, or JavaScript dependency is required.
+Browser → index.html → style.css + local JPG image assets
 
-## Files and assets
+The HTML defines the page structure. CSS controls the presentation and loads the background images. No JavaScript application or server-side component is required.
 
-- index.html — page markup and tribute content
-- style.css — visual presentation
-- Dhoni.jpg and background JPG files — page imagery
+## Start locally
 
-The CSS references images from the repository root. Preserve the filenames and capitalization because paths can be case-sensitive on hosted servers.
+1. Clone or download this repository.
+2. Keep the JPG assets in the repository root.
+3. Open index.html in a modern browser.
+
+There is no package installation or build step. For a hosted preview, publish the complete repository as a static site.
+
+## Project layout
+
+- index.html — markup and tribute content
+- style.css — layout, backgrounds, colors, text, and hover effects
+- Dhoni.jpg — player image
+- First Background.jpg and Sec background.jpg — section backgrounds
+
+## Notes
+
+Image paths are rooted at the site directory, and filenames contain spaces and capitalization. Preserve them exactly on case-sensitive hosting. The repository does not include a license file; check ownership and reuse permissions for the included images before redistributing them.

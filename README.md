@@ -1,26 +1,27 @@
 # MS Dhoni Tribute Website
 
-A static tribute site about Indian cricketer Mahendra Singh Dhoni. The page presents a biography and selected career achievements over photographic backgrounds.
+A static tribute page about Indian cricketer Mahendra Singh Dhoni. It presents a biography and selected achievements with a photographic hero section and player imagery.
 
-## Features
+## Page structure
 
-- Single-page biography and achievements layout
-- Cricket-themed hero and background imagery
-- Responsive viewport metadata
+- Hero section introduces the tribute.
+- Biography section summarizes Dhoni’s playing career and milestones.
+- Achievements section lists selected awards and records.
+
+The content and layout are defined in one HTML page. This is a simple static site, not a data-driven application.
 
 ## Built with
 
-- HTML5 for page structure
-- CSS3 for layout, backgrounds, and hover effects
+HTML5 for page structure and CSS3 for backgrounds, flex layout, typography, and hover effects. The photos are local JPG assets.
 
 ## Run locally
 
-Open `index.html` in a web browser. No build step or package installation is required.
+Open index.html in a browser. No package manager, build step, server, or JavaScript dependency is required.
 
-## Project files
+## Files and assets
 
-- `index.html` — biography and achievements content
-- `style.css` — page styling
-- `Dhoni.jpg`, `First Background.jpg`, `Sec background.jpg` — image assets
+- index.html — page markup and tribute content
+- style.css — visual presentation
+- Dhoni.jpg and background JPG files — page imagery
 
-Images are referenced from the site root. Keep the asset filenames and capitalization unchanged when hosting on a case-sensitive server.
+The CSS references images from the repository root. Preserve the filenames and capitalization because paths can be case-sensitive on hosted servers.
